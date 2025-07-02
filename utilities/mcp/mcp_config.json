@@ -1,0 +1,12 @@
+
+{  
+    "mcpServers": {  
+        "terminal": {  
+            "command": "/etc/profiles/per-user/shamma/bin/uv",  
+            "args": [  
+                "--directory", "/home/shamma/mcp/servers/terminal_server",  
+                "run", "terminal_server.py"  
+            ]  
+        }  
+    }  
+}  
