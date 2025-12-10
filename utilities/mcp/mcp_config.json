@@ -7,6 +7,27 @@
                 "--directory", "/home/shamma/mcp/servers/terminal_server",  
                 "run", "terminal_server.py"  
             ]  
-        }  
+        },
+        "networkmcp": {  
+            "command": "/etc/profiles/per-user/shamma/bin/uv",  
+            "args": [  
+                "--directory", "/home/shamma/mcp/servers/networkmcp",  
+                "run", "network_mcp2.py"  
+            ]  
+        },
+        "syscall": {  
+            "command": "/etc/profiles/per-user/shamma/bin/uv",  
+            "args": [  
+                "--directory", "/home/shamma/mcp/servers/systemmcp",  
+                "run", "systemmcp.py"  
+            ]  
+        },
+         "filesmcp": {  
+            "command": "/etc/profiles/per-user/shamma/bin/uv",  
+            "args": [  
+                "--directory", "/home/shamma/mcp/servers/filesmcp",  
+                "run", "filesmcp.py"  
+            ]  
+        } 
     }  
 }  

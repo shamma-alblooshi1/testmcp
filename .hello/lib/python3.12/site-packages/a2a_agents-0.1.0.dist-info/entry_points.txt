@@ -1,0 +1,4 @@
+[console_scripts]
+a2a-cli = app.cmd.cmd:cli
+host-agent = agents.host_agent.entry:main
+syscall-monitor = agents.syscall_monitor_agent.__main__:main
